@@ -1,0 +1,16 @@
+{
+  "name": "upas-zap-nuvem",
+  "version": "1.0.0",
+  "description": "Robo de WhatsApp para o sistema UPAS",
+  "main": "zap_bot.js",
+  "scripts": {
+    "start": "node zap_bot.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "qrcode": "^1.5.3",
+    "express": "^4.18.2",
+    "pino": "^8.16.1",
+    "pino-pretty": "^10.2.3"
+  }
+}
